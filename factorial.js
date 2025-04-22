@@ -16,7 +16,7 @@ function calcularFactorial() {
       factorial *= i;
     }
   
-    // Muestra el resultado en consola y en el HTML (pa' que se vea bonito)
+    // Muestra el resultado en consola y en el HTML (si, si le puse brillitos :3)
     console.log(`El factorial de ${num} es: ${factorial}`);
     document.getElementById("resultado").innerHTML = 
       `✨ <b>${num}! = ${factorial}</b> ✨`;
